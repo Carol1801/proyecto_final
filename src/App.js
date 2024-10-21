@@ -17,9 +17,16 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={() => {saludar()}}>
+          Presioname
+        </button>
       </header>
     </div>
   );
 }
 
+function saludar() {
+  console.log('Holaaaa');
+  
+}
 export default App;
